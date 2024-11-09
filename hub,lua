@@ -1,0 +1,16 @@
+local gameScripts = {
+    [8929050629] = "https://raw.githubusercontent.com/darknesstg/taxihub/main/mosacademy",
+    [9000622508] = "https://raw.githubusercontent.com/darknesstg/taxihub/main/mosacademy",
+    [3851622790] = "https://raw.githubusercontent.com/darknesstg/taxihub/main/breakin",
+    [4620170611] = "https://raw.githubusercontent.com/darknesstg/taxihub/main/breakin",
+    [662417684] = "https://raw.githubusercontent.com/darknesstg/taxihub/main/lucky",
+    [10972284553] = "https://raw.githubusercontent.com/darknesstg/taxihub/main/skala",
+    [3101667897] = "https://raw.githubusercontent.com/darknesstg/taxihub/main/speed"
+}
+
+local scriptURL = gameScripts[game.PlaceId]
+if scriptURL then
+    loadstring(game:HttpGet(scriptURL))()
+else
+    lib:Notification("System", "This game is not supported or detected!", "OK")
+end
