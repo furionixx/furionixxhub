@@ -9,7 +9,7 @@ local enteredKey = nil
 
 local function continueToHub()
 DiscordLib:Notification("Valid Key", "Loading script.", "OK")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/darknesstg/fdafdafd/main/russiawin"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/furionixx/furionixxhub/refs/heads/main/hub%2Clua"))()
 end
 
 keyChannel:Textbox("Enter Key", "Type here!", true, function(input)
