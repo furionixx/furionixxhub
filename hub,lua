@@ -12,5 +12,5 @@ local scriptURL = gameScripts[game.PlaceId]
 if scriptURL then
     loadstring(game:HttpGet(scriptURL))()
 else
-    lib:Notification("System", "This game is not supported or detected!", "OK")
+    DiscordLib:Notification("System", "This game is not supported or detected!", "OK")
 end
