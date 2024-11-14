@@ -3,7 +3,7 @@ local win = DiscordLib:Window("Furionix Hub")
 local serv = win:Server("Key System", "http://www.roblox.com/asset/?id=6031075938")
 local keyChannel = serv:Channel("Key System")
 
-local validKeys = { "taxihubontopsus" }
+local validKeys = { "y6c8a0b9z4f6i7u1p5g2v1r6g8t8j4u8" }
 local discordLink = "https://discord.gg/UDQUv2CFEV"
 local enteredKey = nil
 
